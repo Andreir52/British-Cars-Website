@@ -1,0 +1,53 @@
+
+<!DOCTYPE html>
+<html>
+<head> 
+ <title>Famous British Cars</title>
+ <meta charset="UTF-8">
+ <meta name="description" content="Famous British Cars">
+ <meta name="keywords" content="British, Cars, Jaguar, Aston Martin">
+ <meta name="author" content="Andrei Rizescu">
+ <meta name="viewport" content="width=device-width, initial-scale=1.0">
+ <link rel="stylesheet" href="proiect.css">
+</head>
+
+
+<header>
+   <h1>Famous British Cars</h1>
+</header>
+
+<body>
+  <div id="navigare">
+   
+   <nav>
+    <ul>
+     <li> <a href="#" id="home">HOME</a></li>
+     <li> <a> COLLECTION</a>
+	       <ul>
+		      <li> <a href="#"> Aston Martin </a></li>
+			  <li> <a href="#">Jaguar </a></li>
+			  <li> <a href="#">Rolls Royce </a></li>
+			  <li> <a href="#">Land Rover </a></li>
+	       </ul>
+	 </li>
+     <li> <a href="#">HOME</a></li>
+     <li> <a href="#">HOME</a></li>
+    </ul>
+   </nav>
+  </div>
+  <p> katakanak</p>
+  <p> katakanak</p>
+  <p> katakanak</p>
+  <p> katakanak</p>
+  <p> katakanak</p><p> katakanak</p><p> katakanak</p><p> katakanak</p><p> katakanak</p><p> katakanak</p><p> katakanak</p><p> katakanak</p><p> katakanak</p><p> katakanak</p><p> katakanak</p><p> katakanak</p>
+  <p> katakanak</p><p> katakanak</p><p> katakanak</p><p> katakanak</p><p> katakanak</p><p> katakanak</p>
+  <p> katakanak</p><p> katakanak</p><p> katakanak</p><p> katakanak</p><p> katakanak</p>
+  <p> katakanak</p><p> katakanak</p><p> katakanak</p><p> katakanak</p><p> katakanak</p><p> katakanak</p>
+  <p> katakanak</p><p> katakanak</p><p> katakanak</p><p> katakanak</p><p> katakanak</p>
+  <p> katakanak</p><p> katakanak</p><p> katakanak</p><p> katakanak</p><p> katakanak</p><p> katakanak</p><p> katakanak</p>
+  <p> katakanak</p><p> katakanak</p><p> katakanak</p><p> katakanak</p><p> katakanak</p>
+  <p> katakanak</p><p> katakanak</p><p> katakanak</p><p> katakanak</p>
+  
+   
+</body>
+</html>

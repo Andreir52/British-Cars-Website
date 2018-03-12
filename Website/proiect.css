@@ -1,0 +1,289 @@
+@font-face
+{ font-family: bossdeboss;
+  src: url(Kirvy-Regular.otf);
+  
+}
+@font-face
+{font-family: valoare;
+src: url(DevilBreezeBook.ttf);
+}
+
+#navigare
+{position:sticky;
+top: 0px;
+}
+
+nav ul 
+{
+margin: 0px;
+margin-top:-12px;
+padding: 0px;
+list-style: none;
+}
+
+nav ul li 
+{ 
+background-color:black;
+opacity: .8;
+line-height: 40px;
+ width: 20em;
+ height: 40px;
+text-align: center;
+float: left;
+margin-left: 10px;
+border-radius: 10px;
+margin-top:1px;
+
+
+}
+nav ul li a{ 
+text-decoration: none;
+color: white;
+display: block;
+font-family: bossdeboss;
+border-radius: 10px;
+
+  
+  
+}
+ nav ul li ul
+ {margin-left: -10px;
+ }
+nav ul li ul li
+{display: none;
+ 
+}
+nav ul li:hover ul li 
+{ display: block;
+  opacity: 0;
+    
+
+     animation: menu 700ms ease-in-out;
+     animation-fill-mode: forwards;
+	  
+}
+   #a
+   {animation-delay: 0ms;
+   }
+   #b
+   {animation-delay: 100ms;
+   }
+   #c{animation-delay: 200ms;
+   }   
+   #d{animation-delay: 300ms;
+   }
+  #e{animation-delay: 400ms;
+   }
+  #f{animation-delay: 0ms;
+   }
+   
+   #g{animation-delay: 100ms;
+    
+   }
+  
+
+@keyframes menu
+  { 0% {opacity: 0;
+  transform:  scale(0.3) rotateX(-90deg);}
+   60% { 
+       transform: rotateX(50deg);}
+    100% {opacity: 1; 
+       transform:scale (1) rotateX(0deg);}	  
+	   }
+  
+nav ul li a:hover{
+	  
+	 background-image: url("metal.jpg");
+}
+ 
+header h1
+{ font-family: valoare;
+ 
+color: white;
+font-size: 2vw;
+ 
+ 
+ 
+}
+header
+{background-image: url("metal.jpg");
+ 
+padding-top: 30px;
+margin-top: -10px;
+padding-left: 20px;
+margin-left: -10px;
+margin-right: -5px;
+}
+
+ 
+
+video
+{position: absolute;
+width:90.5em;
+top: -30px;
+left: 0px;
+z-index: -1;
+min-height:100%;
+  
+   
+margin-left:-100px;
+}
+
+
+ .text
+ {
+  color: white;
+  font-family:bossdeboss ;
+  text-align: center;
+  font-size: 115%;
+
+
+ }
+
+ .text2
+ {
+  color: red;
+  font-family:valoare;
+  text-align: center;
+  font-size: 115%;
+}
+ #ff
+ {column-count: 3;
+ column-rule-style: solid;}
+ 
+ span
+ {color:blue;}
+
+ .textbox
+ {
+   margin-top: 650px;
+   border: 2px solid white;
+   
+ }
+
+ 
+ body
+ {background-color:white;
+  transition-property: background;
+  transition-timing-function: linear;
+    transition-duration: 2s;
+
+  }
+  body:hover
+ 
+{background-color:black;
+}
+
+ #aston
+ {
+  margin-top: -50px;
+  margin-left: -659px;
+
+ }
+ #aston2
+ { float:left;
+
+
+    }
+figure 
+{
+  display: inline-block;
+  overflow: scroll;
+  
+
+   }
+
+   
+
+    #gf
+    {display:flex;}
+figcaption
+{
+  color: white;
+  font-family: bossdeboss;
+  text-align: center;
+}
+.prima
+{margin-left: 100px;
+}
+
+figure:hover
+{ background-image: url("metal.jpg")}
+
+#roata
+{  margin-top: 10px;
+   margin-left: 630px;
+   animation: roteste 0.1s infinite;
+   width: 50px;
+   opacity: .7;
+ }
+
+@keyframes roteste
+{ 0% { transform: rotate(0deg);
+ }
+  100% {transform: rotate(360deg);
+    } }
+
+#jaguar
+{ margin:auto;
+
+  width:1350px;
+}
+#rlg
+{width: 1340px;
+}
+
+@media screen and (max-width: 699px) and (min-width: 520px) {
+    body {
+        
+        background: url(met.jpg);
+
+    }
+}
+
+footer
+{color:white;
+  font-family:bossdeboss;
+background:linear-gradient(black, grey);
+opacity:.2;
+}
+
+#land
+{ margin-left: -20px;
+  width: 1360px;
+ position:relative;
+ z-index: -1;}
+
+#bentley
+{width: 1340px;}
+
+table 
+{color:white;
+    
+    width: 100%;}
+
+    table td
+    {border-style: solid;
+    border-color:   blue  white
+  
+  }
+
+    table tr:nth-child(2n) {
+    background: blue;
+    opacity: .5;
+}
+iframe
+{  width:100%;
+height: 300px;
+}
+#div1, #div2 {
+    float: left;
+    width: 100px;
+    height: 35px;
+    margin: 10px;
+    padding: 10px;
+    border: 1px solid white;
+  }
+
+#par
+{ color: white; }
